@@ -1,19 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
   <head>
-    <link rel="stylesheet" href="lib/style.css">
+    <link rel="stylesheet" href="lib/style.css" />
     <script src="lib/script.js"></script>
-    <title>Мой кот</title>
   </head>
 
   <body>
-    <div>
-    <h1>Мой кот 'Кокос'</h1>
-    <p>Тут есть история про моего кота<p>
-      <a href = 'History.html'><p>История</p> </a>
-    <p> А это альбом </p>
-    <a href = 'album.html'><p>Альбом</p> </a>
-    </div>
+    <table class="tab">
+      <tr>
+        <td rowspan="3" class = 'fotos'><img src="lib/2.png" width="95%" alt="не заГружается"></td>
+        <td><h1>Кот Кокос</h1></td>
+        <td rowspan="3" class = 'fotos'><img src="lib/1.jpg" width="100%" alt="не заГружается"></td>
+      </tr>
+      <!--ряд с ячейками заголовков-->
+      <tr>
+        
+        <td><a href = 'album.html'><p>Альбом</p> </a></td>
+        
+      </tr>
+      <tr>
+        
+        <td><a href = 'History.html'><p>История</p> </a></td>
+        
+      </tr>
+      <!--ряд с ячейками тела таблицы-->
+    </table>
   </body>
 </html>
